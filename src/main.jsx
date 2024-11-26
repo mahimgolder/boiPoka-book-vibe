@@ -9,6 +9,7 @@ import Root from './components/Root/Root.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import Home from './components/Home/Home.jsx';
 import DashBoard from './components/DashBoard/DashBoard.jsx';
+import Banner from './components/Banner/Banner.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
       {
         path: "dashboard",
         element: <DashBoard></DashBoard>
-      }
+      },
+     
     ]
   },
 ]);
